@@ -53,7 +53,6 @@ button:hover {
     display: none;
     position: absolute;
     padding: 1rem;
-    /* z-index: 1; */
   }
   .right-nav-bar>div:nth-of-type(3):hover > .arrow-down{
     display: none;
@@ -259,7 +258,6 @@ button:hover {
   overflow:hidden;
   background-color: white;
   box-shadow: -110px 0px 5px 120px rgba(0,0,0,0.4);
-  position: absolute;
   z-index: 11;
   opacity: 0;
   transition: all 1s;
