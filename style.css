@@ -53,7 +53,7 @@ button:hover {
     display: none;
     position: absolute;
     padding: 1rem;
-    z-index: 1;
+    /* z-index: 1; */
   }
   .right-nav-bar>div:nth-of-type(3):hover > .arrow-down{
     display: none;
@@ -232,7 +232,7 @@ button:hover {
 #cmenu{
   display: none;
 }
-.company:active + #cmenu{
+.company:hover + #cmenu{
   display: flex;
   flex-direction: column;
   gap: .5rem;
