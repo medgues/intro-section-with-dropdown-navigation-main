@@ -250,6 +250,7 @@ button:hover {
 
 #lgMenu {
   padding: 5rem 1rem 0rem 1rem; 
+  position: fixed;
   width: 150px;
   height: 100%;
   color: hsl(0, 0%, 41%);
